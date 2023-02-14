@@ -1,0 +1,7 @@
+.Coll {
+    width: 35px;
+    height: 35px;
+    /* border: 1px solid rgba(255, 0, 0, 0.357); */
+    /* margin: 5px; */
+    transition: .4s;
+  }

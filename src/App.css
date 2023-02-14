@@ -1,38 +1,64 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(#0000006c, #0000006c), url('./assets/img/bodyBc.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+}
+.Main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+}
 .App {
-  text-align: center;
+    background-image: url('./assets/img/bc2.png');
+    background-size: contain;
+    background-position: center;
+}
+.next {
+    background-image: url('./assets/img/bc.png');
+}
+.AppTitle {
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+
+}
+.row {
+    display: flex;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.food {
+    background-color: rgba(0, 255, 255, 0.257);
+    z-index: 100;
+    position: relative;
+    background-image: url('./assets/img/AllAssetsPreview.png') !important;
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.beaver {
+    /* background-color: brown; */
+    /* border: 1px solid #fff; */
+    transition: .4s;
+    background-image: url('./assets/img/bober.png');
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
